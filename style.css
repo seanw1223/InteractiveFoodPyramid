@@ -1,0 +1,150 @@
+.pyramid-container {
+  text-align: center;
+}
+
+.pyramid-level {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pyramid-level button {
+  margin: 0 10px;
+  display: none; 
+  color: grey;
+}
+
+.pyramid-level:hover button {
+  display: block; 
+  color: black;
+}
+
+.count {
+  min-width: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.dec, .inc, .count {
+  transform: translateY(75px);
+}
+
+
+#pyramid-level-1, #pyramid-level-2, #pyramid-level-3, #pyramid-level-4, #pyramid-level-5, #pyramid-level-6 {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+  
+  #pyramid-level-1 {
+      border-bottom: 100px solid red;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      height: 0;
+      width: 0px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+  
+  #pyramid-level-2 {
+    position: relative;
+      border-bottom: 100px solid orange;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      height:10px;
+      width: 200px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+  
+  #pyramid-level-3 {
+    position: relative;
+      border-bottom: 100px solid yellow;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      height: 10px;
+      width: 400px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+
+  #pyramid-level-4 {
+    position: relative;
+      border-bottom: 100px solid blue;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      height: 0;
+      width: 600px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+
+  #pyramid-level-5 {
+    position: relative;
+      border-bottom: 100px solid brown;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      height: 0;
+      width: 800px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+
+  #pyramid-level-6 {
+    position: relative;
+      border-bottom: 100px solid rgb(0, 128, 0);
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      height: 0;
+      width: 1000px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+  .count {
+    min-width: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid grey; 
+    background-color: grey; 
+    color: white; 
+    padding: 5px; 
+  }
+ 
+      .bottommiddle {
+    position: absolute; 
+    bottom: 126px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    font-size: 24px; 
+    color: black; 
+   
+  }
+
+  .title {
+    position: absolute;
+    bottom: 90px; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: black;
+    cursor: pointer; 
+}
+.shelf-number {
+  position: absolute;
+  left: -30px; 
+  top: 50%;
+  transform: translateY(-50%);
+  color: black; 
+  font-weight: bolder;
+}
+
+ 
+ 
+  
+  
+
+  
+  
+  
+  
